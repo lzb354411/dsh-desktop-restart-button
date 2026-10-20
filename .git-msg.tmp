@@ -1,0 +1,8 @@
+﻿加英文 README 与 package 元信息
+
+- 新增 README.en.md（完整英文版，覆盖安装/卸载/已知代价/工作原理/安全闸门/自测/兼容性）
+- README.md 顶部加语言互跳链接，方便 GitHub 英文访客找到英文版
+- package.json files 增加 README.en.md
+- 仓库已配 10 个话题标签（dsh / deepseek-harness / cordis / cordis-plugin / dsh-plugin /
+  desktop-app / restart / electron / windows / powershell）；主页字段留空以免死链
+- 自测 88/88 全绿

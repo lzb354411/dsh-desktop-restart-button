@@ -2,6 +2,8 @@
 
 # dsh-desktop-restart-button（桌面端一键重启按钮）
 
+**语言 / Languages：** 中文 ｜ [English](README.en.md)
+
 给 **DeepSeek Harness 桌面端**加一个「重启」按钮：点一下即**关闭窗口 → 退出全部进程 → 自动重新打开**，
 省掉「右键托盘图标选退出，再找到桌面图标双击打开」这两步。
 

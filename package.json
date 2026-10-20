@@ -28,6 +28,7 @@
     "icon.svg",
     "restart-dsh.bat",
     "README.md",
+    "README.en.md",
     "LICENSE"
   ],
   "dsh": {
