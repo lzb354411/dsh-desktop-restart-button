@@ -24,6 +24,10 @@ build/
 *.log
 tmp/
 .cache/
+# 临时提交信息文件（写给 `git commit -F` 用，提交完即弃；必须忽略，
+# 否则它会随着 `git add -A` 混进下一次提交——本项目已因此误入库三次）
+.git-msg.tmp
+*.tmp
 
 # 编辑器与系统
 .vscode/
