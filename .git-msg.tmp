@@ -1,7 +1,0 @@
-﻿公开仓库准备：README 对外化、补 LICENSE 与 package.json 元信息
-
-- README：合并内部管理文档与对外说明为一份（避免重复副本），补「已知代价」
-  （强杀会中断任务）、工作流程图、安全闸门表、文件结构表
-- 新增 MIT LICENSE；package.json 补 license/keywords，files 加 LICENSE
-- 全部文档改用 <你的用户名> / <插件项目目录> 等占位符，替代本机绝对路径
-- 自测 88/88 全绿；已 remove+add 重装，已装副本与项目逐文件哈希一致
