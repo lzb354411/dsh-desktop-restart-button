@@ -1,0 +1,35 @@
+{
+  "name": "dsh-desktop-restart-button",
+  "version": "1.0.1",
+  "private": true,
+  "description": "One-click restart for the DeepSeek Harness desktop app: closes the window, exits every process and reopens automatically.",
+  "type": "module",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "cordis.patch.yml",
+    "icon.svg",
+    "restart-dsh.bat",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

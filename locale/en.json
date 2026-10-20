@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop restart button",
+    "description": "Adds a Restart button above the sidebar account avatar: one click closes the window, exits every process and reopens the desktop app, replacing the tray-quit-then-relaunch routine."
+  }
+}

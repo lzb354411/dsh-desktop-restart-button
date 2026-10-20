@@ -1,0 +1,10 @@
+# 组合补丁：把本插件作为一个「组合包」注册进 profile。
+# 说明：
+#  - 官方安装器要求依赖必须带组合包 patch，否则在检查阶段直接拒绝（见 REFERENCES.md R6）。
+#  - client-module 扫描会把这一行的 specifier 解析到「包根」再读 package.json 的 dsh.client，
+#    所以这里的 name 必须**正好等于包名**，否则页面半边永远不会加载（同上 R6）。
+#  - 不在这里写 config / inject：本插件的 Host 半边自己用 `export const inject = ["webServer"]`
+#    声明所需服务，patch 保持最小，避免覆盖官方条目的字段。
+- insert:
+    - id: dsh-desktop-restart-button
+      name: dsh-desktop-restart-button
